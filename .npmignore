@@ -1,0 +1,38 @@
+# Source files (dist is published)
+credentials/
+nodes/
+test/
+scripts/
+
+# Config files
+.eslintrc.js
+.prettierrc
+tsconfig.json
+jest.config.js
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Development
+*.log
+coverage/
+.nyc_output/
+.env*
+.cache/
+*.tmp
+*.temp
+.debug/
+
+# Git
+.git/
+.gitignore
+
+# Documentation source (README stays)
+docs/
